@@ -20,7 +20,6 @@ setup(name		    =		'CryptoCoinChartsApi',
       url		    =		'https://github.com/Dirrot/python-cryptocoincharts-api',
       packages		=		packages,
       package_dir	=		{'CryptoCoinChartsApi.py' : abspath(path_join(pathname, 'CryptoCoinChartsApi/'))},
-      scripts		=		['CryptoCoinChartsApi/ApiTry.py'],
       data_files	=		[('share/CryptoCoinChartsApi', ['README.md', 'LICENSE', 'img/donation-qr-code.png'])],
 
 	)
