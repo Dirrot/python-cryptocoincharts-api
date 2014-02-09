@@ -29,7 +29,7 @@ if __name__ == '__main__':
     
     api = API()
     
-    print '*list of all coins*\n'
+    print '*list of all coins*'
     
     listcoins = api.listcoins()
     for coin in listcoins:
