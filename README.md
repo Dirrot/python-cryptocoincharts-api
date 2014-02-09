@@ -29,14 +29,45 @@ if __name__ == '__main__':
     
     api = API()
     
+    print '*list of all coins*\n'
+    
     listcoins = api.listcoins()
-    print 'ListCoins: ', listcoins
+    for coin in listcoins:
+        print coin
+        print 'id:', coin.id
+        print 'name:', coin.name
+        print 'website:', coin.website
+        print 'price_btc:', coin.price_btc
+        print 'volume_btc:', coin.volume_btc
+        
+    print '*a single tradingpair*'
     
     pair = 'doge_btc'
     tradingpair = api.tradingpair(pair)
-    print 'TradingPair: ', tradingpair
-    
-    pairs = 'doge_btc,btc_eur'
+    print tradingpair
+    print 'id:', tradingpair.id
+    print 'price:', tradingpair.price
+    print 'price_before_24h:', tradingpair.price_before_24h
+    print 'volume_first:', tradingpair.volume_first
+    print 'volume_second:', tradingpair.volume_second
+    print 'volume_btc:', tradingpair.volume_btc
+    print 'best_market:', tradingpair.best_market
+    print 'latest_price:', tradingpair.latest_trade
+                     
+    print '*list of specific tradingpairs*'                 
+                                                                                       
+    pairs = 'doge_btc,btc_usd,btc_eur'
     tradingpairs = api.tradingpairs(pairs)
-    print 'TradingPairs: ', tradingpairs
+    for tradingpair in tradingpairs:
+        print tradingpair
+        print 'id:', tradingpair.id
+        print 'price:', tradingpair.price
+        print 'price_before_24h:', tradingpair.price_before_24h
+        print 'volume_first:', tradingpair.volume_first
+        print 'volume_second:', tradingpair.volume_second
+        print 'volume_btc:', tradingpair.volume_btc
+        print 'best_market:', tradingpair.best_market
+        print 'latest_price:', tradingpair.latest_trade
+
 ```
+
