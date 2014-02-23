@@ -71,3 +71,7 @@ if __name__ == '__main__':
 
 ```
 
+
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-cryptocoincharts-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+
