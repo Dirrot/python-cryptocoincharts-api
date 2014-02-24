@@ -1,15 +1,10 @@
-python-cryptocoincharts.info-api
+python-cryptocoincharts-api [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-cryptocoincharts-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 =========================
 
 This is a python wrapper class for the cryptocoincharts.info api.
 
  http://www.cryptocoincharts.info/v2/tools/api
  
-___________________________________________________
-
-**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
-
-!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-cryptocoincharts-api/blob/master/img/donation-qr-code.png?raw=true)
 
 ___________________________________________________
  
@@ -17,6 +12,13 @@ _Methods_
 * listcoins - Use this function to list all coins with their data which are available on cryptocoincharts.
 * tradingpair - Use this function to query price and volume data for ONE trading pair.
 * tradingpairs - Use this function to query price and volume data for MANY trading pairs.
+
+___________________________________________________
+
+_Install_
+```bash
+sudo pip install CryptoCoinChartsApi
+```
 
 ___________________________________________________
 
@@ -71,7 +73,10 @@ if __name__ == '__main__':
 
 ```
 
+___________________________________________________
 
+**Please donate to "DQ6mBVyuboTGwS8JYW11oHwXtxsjNAzkzi" [DOGECOIN]** 
 
-[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-cryptocoincharts-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+!["Dogecoin Donation QR-Code"](http://github.com/Dirrot/python-cryptocoincharts-api/blob/master/img/donation-qr-code.png?raw=true)
+
 
