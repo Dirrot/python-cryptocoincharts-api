@@ -2,5 +2,5 @@ language: python
 python:
   - "3.3"
   - "2.7"
-#install: PLEASE CHANGE ME
-#script: PLEASE CHANGE ME
+install: 
+script: 
