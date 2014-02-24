@@ -1,4 +1,4 @@
-python-cryptocoincharts-api [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-cryptocoincharts-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
+python-cryptocoincharts-api [![Build Status](https://travis-ci.org/Dirrot/python-cryptocoincharts-api.png?branch=master)](https://travis-ci.org/Dirrot/python-cryptocoincharts-api) [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/Dirrot/python-cryptocoincharts-api/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
 =========================
 
 This is a python wrapper class for the cryptocoincharts.info api.
