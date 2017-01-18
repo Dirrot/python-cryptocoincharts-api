@@ -1,8 +1,8 @@
 '''
 @author: Dirk Rother
-@contact: dirrot@web.de
+@contact: dirrot.dev@gmail.com
 @license: GPL
-@version: 0.1
+@version: 0.2
 
 '''
 

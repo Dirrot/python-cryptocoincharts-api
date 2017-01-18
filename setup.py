@@ -13,10 +13,10 @@ pathname		=		getcwd()
 packages        =       ['CryptoCoinChartsApi', 'CryptoCoinChartsApi/Models']
 
 setup(name		    =		'CryptoCoinChartsApi',
-      version		=		'0.0.1',
+      version		=		'0.2',
       description	=		'Python API for www.cryptocoincharts.info',
       author		=		'Dirrot',
-      author_email  =       'dirrot@web.de',
+      author_email  =       'dirrot.dev@gmail.com',
       url		    =		'https://github.com/Dirrot/python-cryptocoincharts-api',
       packages		=		packages,
       package_dir	=		{'CryptoCoinChartsApi.py' : abspath(path_join(pathname, 'CryptoCoinChartsApi/')), 'Coin.py' : abspath(path_join(pathname, 'CryptoCoinChartsApi/Models')), 'TradingPair.py' : abspath(path_join(pathname, 'CryptoCoinChartsApi/Models'))},
